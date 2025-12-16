@@ -1,14 +1,15 @@
 # datasets / raw
-mnist_path/
-**/mnist_path/
-**/FashionMNIST/
-**/MNIST/
+mnist_path/fgsm_cache
+mnist_path/FashionMNIST/processed
+#**/mnist_path/
+#**/FashionMNIST/
+#**/MNIST/
 
 # checkpoints
-*.pth
+#*.pth
 *.pt
-*.ckpt
+#*.ckpt
 
 # caches
-**/fgsm_cache/
-**/__pycache__/
+#**/fgsm_cache/
+#**/__pycache__/
