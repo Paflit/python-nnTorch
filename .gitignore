@@ -1,4 +1,14 @@
-kw/mnist_path/FashionMNIST
-kw/mnist_path/MNIST
-kw/mnist_path/vgg16_fashion-mnist_model.pth
-kw/mnist_path/vgg16_mnist_model.pth
+# datasets / raw
+mnist_path/
+**/mnist_path/
+**/FashionMNIST/
+**/MNIST/
+
+# checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# caches
+**/fgsm_cache/
+**/__pycache__/
